@@ -1,0 +1,90 @@
+.flex-container {
+
+    display: flex; /* Define al contenedor como un contenedor flex */
+  
+    background-color: #f4f4f4;
+  
+    padding: 10px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    margin: 10px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+  }
+
+  .flex-container {
+
+    display: flex;
+  
+    flex-direction: row; /* Los elementos se alinearán de derecha a izquierda */
+  
+  }
+
+
+  .flex-container {
+
+    display: flex;
+  
+    justify-content: space-evenly; /* Centra horizontalmente */
+  
+    align-items: center; /* Centra verticalmente */
+  
+    height: 100px; /* Definimos un tamaño para ver la alineación */
+  
+    background-color:#f18d0891;
+  
+ } 
+
+ div {
+
+    position: static; /* Valor predeterminado */
+  
+    top: 20px; /* Esto no tendrá efecto */
+  
+  }
+
+  div {
+
+    position: relative;
+  
+    top: 20px; /* Mueve el div 20px hacia abajo desde su posición original */
+  
+    left: 20px; /* Mueve el div 10px hacia la derecha */
+  
+  }  
+
+  .fixed-menu {
+
+    position: fixed;
+  
+    top: 0; /* Se coloca en la parte superior */
+  
+    left: 0;
+  
+    width: 100%; /* El menú ocupa todo el ancho */
+  
+    background-color: red;
+  
+    color: white;
+  
+    text-align: center;
+  
+    padding: 10px ;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+  
+  }
+
+  
